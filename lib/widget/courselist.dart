@@ -76,6 +76,8 @@ class _CourseListState extends State<CourseList> {
 
   @override
   Widget build(BuildContext context) {
+    courseList.shuffle();
+
     return ListView.builder(
         shrinkWrap: true,
         itemCount: courseList.length + 1,
