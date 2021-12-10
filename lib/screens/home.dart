@@ -49,6 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: selected,
+        backgroundColor: Colors.white,
         selectedIconTheme: const IconThemeData(color: Colors.black, opacity: 1, size: 24),
         selectedLabelStyle: const TextStyle(fontSize: 12,),
         unselectedIconTheme: const IconThemeData(color: Colors.black, opacity: 0.35, size: 24),
